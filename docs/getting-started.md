@@ -107,6 +107,19 @@ There are two ways to create links.
 
 [I'm a relative link to the ./03a-stoplight-flavored-markdown.md file][./03a-stoplight-flavored-markdown.md]
 
+```
+Constructing the API call
+
+Please refer our [API page](../api?type=post&path=/payments/v1/auths) to know about how to use Commerce Hub APIs.
+```
+Please refer our [API page](../api?type=post&path=/payments/v1/auths) to know about how to use Commerce Hub APIs.
+
+```
+Reference to another markdown file inside a markdown file
+
+[Charge](?path=docs/Transactions/Charges.md)
+```
+[Charge](?path=docs/Transactions/Charges.md)
 
 ## <a name="imgs"/> Images
 
